@@ -15,3 +15,6 @@ Ao concluir esta atividade você deverá estender sua compreensão sobre arvores
 Faça um fork deste repositorio e realize as seguintes atividades: 
 
 - [ ] Implemente as funções NO* girarDireita(NO* no) e NO* girarEsquerda(NO* no)
+
+Joao Victor Alves da Silva
+joao.silva681@fatec.sp.gov.br
