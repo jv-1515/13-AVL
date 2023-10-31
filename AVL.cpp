@@ -1,3 +1,4 @@
+//João Victor Alves da Silva
 #include <iostream>
 using namespace std;
 
@@ -207,12 +208,36 @@ NO* insereArvore(NO* no, int valor)
 NO* girarDireita(NO* no)
 {
 	// sua implementação vai aqui
+
+	//A = 1;
+	//B = 2;
+	//
+	//AUX = A
+	//A = B;
+	//B = AUX;
+
+	NO* atual = no;
+	NO* aux = no->esq;
+	NO* filho = aux->dir;
+
+	no = aux;
+	no->dir = atual;
+	atual->esq = filho;
+
 	return no;
 }
 
 NO* girarEsquerda(NO* no)
 {
 	// sua implementação vai aqui
+	NO* atual = no;
+	NO* aux = no->dir;
+	NO* filho = aux->esq;
+
+	no = aux;
+	no->esq = atual;
+	atual->dir = filho;
+
 	return no;
 }
 
